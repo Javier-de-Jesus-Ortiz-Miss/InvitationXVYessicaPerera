@@ -1281,6 +1281,84 @@ body.modal-open {
     filter: brightness(0.8);
   }
 
+
+.cover-text-group {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 1.1;
+  flex-direction: column;
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  overflow: visible !important;
+  white-space: normal;
+  max-height: none;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.text-cover {
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Montserrat', cursive;
+  font-size: 1rem;
+  font-weight: 200;
+  overflow: visible !important; 
+  white-space: normal;          
+  max-height: none; 
+  margin-bottom: -1rem;
+}
+
+.text-cover p {
+  overflow: visible !important; 
+  white-space: normal;          
+  max-height: none;             
+}
+
+.name-cover {
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  width: 100%;
+  font-family: 'MonteCarlo', cursive;
+  font-size: 7rem;
+  font-weight: 400;
+  overflow: visible !important; 
+  white-space: normal;          
+  max-height: none;             
+}
+
+.name-cover p{
+  overflow: visible !important; 
+  white-space: normal;          
+  max-height: none;      
+  padding-right: 3rem;       
+}
+
+
+.text-date{
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 700%);
+  font-family: 'Montserrat', cursive;
+  font-size: 0.8rem;
+  font-weight: 200;
+  overflow: visible !important; 
+  white-space: normal;          
+  max-height: none; 
+  margin-top: 1rem;
+}
+
+.text-date p {
+  overflow: visible !important; 
+  white-space: normal;          
+  max-height: none;             
+}
+
   /* Divider Image */
   .divider-image {
     width: 90%;
@@ -1319,6 +1397,12 @@ body.modal-open {
     margin: 0 auto;
     margin-top: 0.5rem;
   }
+
+
+
+
+
+
 
   /* Parents Section */
   .parents {
@@ -2303,211 +2387,4 @@ body.modal-open {
 }
 
 }
-
-
-@media (max-height: 900px) and (min-width: 700px){
-#mobile-simulator {
-  aspect-ratio: 9 / 19.5;
-  width: 100%;
-  max-width: 400px;
-  max-height: 90vh;
-  min-height: 0;
-  height: auto;
-  margin: 2rem auto;
-}
-}
-
-@media (max-height: 700px) and (min-width: 700px){
-#mobile-simulator {
-  aspect-ratio: 9 / 19.5;
-  width: 100%;
-  max-width: 300px;
-  max-height: 90vh;
-  min-height: 0;
-  height: auto;
-  margin: 2rem auto;
-}
-}
-
-@media (max-height: 900px) and (min-width: 700px){
-  .text-cover {
-    position: absolute;
-    top: 62%;
-    left: 50%;
-    transform: translateX(-50%);
-    color: #fff;
-    font-family: 'Montserrat', cursive;
-    font-size: 1rem;
-    font-weight: 200;
-  }
-
-  .name-cover {
-    width: 100%;
-    position: absolute;
-    top: 56%;
-    left: 46%;
-    transform: translateX(-50%);
-    color: #fff;
-    font-family: 'MonteCarlo', cursive;
-    font-size: 7rem;
-    font-weight: 400;
-  }
-
-  .text-date{
-    position: absolute;
-    top: 78%;
-    left: 50%;
-    transform: translateX(-50%);
-    color: #fff;
-    font-family: 'Montserrat', cursive;
-    font-size: 0.8rem;
-    font-weight: 200;
-  }
-}
-
-@media (max-height: 700px) and (min-width: 700px){
-  .text-cover {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translateX(-50%);
-    color: #fff;
-    font-family: 'Montserrat', cursive;
-    font-size: 1rem;
-    font-weight: 200;
-  }
-
-  .name-cover {
-    width: 100%;
-    position: absolute;
-    top: 55%;
-    left: 46%;
-    transform: translateX(-50%);
-    color: #fff;
-    font-family: 'MonteCarlo', cursive;
-    font-size: 7rem;
-    font-weight: 400;
-  }
-
-  .text-date{
-    position: absolute;
-    top: 78%;
-    left: 50%;
-    transform: translateX(-50%);
-    color: #fff;
-    font-family: 'Montserrat', cursive;
-    font-size: 0.8rem;
-    font-weight: 200;
-  }
-}
-
-
-@media (max-height: 650px) and (min-width: 700px){
-    .text-cover {
-      position: absolute;
-      top: 58%;
-      left: 50%;
-      transform: translateX(-50%);
-      color: #fff;
-      font-family: 'Montserrat', cursive;
-      font-size: 0.5rem;
-      font-weight: 200;
-    }
-
-    .name-cover {
-      width: 100%;
-      position: absolute;
-      top: 53%;
-      left: 46%;
-      transform: translateX(-50%);
-      color: #fff;
-      font-family: 'MonteCarlo', cursive;
-      font-size: 7rem;
-      font-weight: 400;
-    }
-
-    .text-date{
-      position: absolute;
-      top: 78%;
-      left: 50%;
-      transform: translateX(-50%);
-      color: #fff;
-      font-family: 'Montserrat', cursive;
-      font-size: 0.8rem;
-      font-weight: 200;
-    }
-}
-
-@media (max-height: 600px) and (min-width: 700px){
-    .text-cover {
-      position: absolute;
-      top: 58%;
-      left: 50%;
-      transform: translateX(-50%);
-      color: #fff;
-      font-family: 'Montserrat', cursive;
-      font-size: 1rem;
-      font-weight: 200;
-    }
-
-    .name-cover {
-      width: 100%;
-      position: absolute;
-      top: 55%;
-      left: 46%;
-      transform: translateX(-50%);
-      color: #fff;
-      font-family: 'MonteCarlo', cursive;
-      font-size: 5rem;
-      font-weight: 400;
-    }
-
-    .text-date{
-      position: absolute;
-      top: 78%;
-      left: 50%;
-      transform: translateX(-50%);
-      color: #fff;
-      font-family: 'Montserrat', cursive;
-      font-size: 0.8rem;
-      font-weight: 200;
-    }
-}
-
-@media (max-height: 550px) and (min-width: 700px){
-    .text-cover {
-      position: absolute;
-      top: 55%;
-      left: 50%;
-      transform: translateX(-50%);
-      color: #fff;
-      font-family: 'Montserrat', cursive;
-      font-size: 1rem;
-      font-weight: 200;
-    }
-
-    .name-cover {
-      width: 100%;
-      position: absolute;
-      top: 50%;
-      left: 46%;
-      transform: translateX(-50%);
-      color: #fff;
-      font-family: 'MonteCarlo', cursive;
-      font-size: 5rem;
-      font-weight: 400;
-    }
-
-    .text-date{
-      position: absolute;
-      top: 78%;
-      left: 50%;
-      transform: translateX(-50%);
-      color: #fff;
-      font-family: 'Montserrat', cursive;
-      font-size: 0.8rem;
-      font-weight: 200;
-    }
-}
-
 
